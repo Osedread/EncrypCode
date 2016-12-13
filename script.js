@@ -1,6 +1,3 @@
-var el = document.getElementById("encrypBtn");
-
-
 function rot13(str) {
 	
 	
