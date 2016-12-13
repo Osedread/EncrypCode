@@ -1,37 +1,36 @@
-t
-
-//Lorem ipsum erecto
-// 3
+var el = document.getElementById("encrypBtn");
 
 
-// Create an array with every value of the text.
-var textInputArray = textInput.split("");
-var textOutputArray = [];
-// ["H", "o", "l", "a"]
-
-// R -> textInputArray[2]
-
-
-
-
-
-var pene = function () {
+function rot13(str) {
 	
-	for ( var i = 0; i < textInputArray.length; i++ ) {
+	
+	var arr = [];
+	var upperStr = str.toString().toUpperCase();
+	
+	for (var i=0; i<str.length; i++) {
 		
-		if ( textInputArray[i] == alphabet.indexOf(i) ) {
-			var encryptedCharacter = alphabet[i+numberInput];
-			textOutputArray.push(encryptedCharacter);
-		} else {
-			textOutputArray.push(textInputArray[i]);
+		var letterCharCode = upperStr.charCodeAt(i);
+
+		if (letterCharCode >= 78 && letterCharCode <= 90) {
+			letterCharCode += 19;
+		} else if (letterCharCode >=65 && letterCharCode <= 77) {
+			letterCharCode += 13;
 		}
+
+		var letter = String.fromCharCode(letterCharCode);
+		arr.push(letter);
+		
 	}
-};
 
+	var str2 = arr.join("").toUpperCase();
 
-	// Cogemos cada caracter del texto
-	// var  originalCharacter = textInput.chartAt(i);
+	return str2;
+}
 
-
-
+function encryptFn() {
+	var text = document.getElementById("textToEncrypt").value;
+	var strText = text.toString();
+	var newText = rot13(strText);
+	document.getElementById("encryptedText").innerHTML = newText;
+}
 

@@ -9,15 +9,20 @@
 <body>
 	<section>
 		<div>
-			<h1>EncryptCode PPP</h1>
-			<p>Introduce the text you wanna encrypt:</p>
-			<textarea name="" id="" cols="30" rows="10"></textarea>
-			<p>Now type a number.</p>
-			<input type="text"><br>
-			<button>Go</button>
+			<h1>Encryption Generator</h1>
+			<p>Introduce the text you want to encrypt:</p>
+			<textarea name="" id="textToEncrypt" cols="60" rows="5"></textarea>
+			<div>
+				<button type="button" id="encrypBtn" onclick="encryptFn()">Encrypt it for me</button>
+			</div>
+			<div id="encryptedText">
+				
+			</div>
 		</div>
 	</section>
+	
 
+	<script src="script.js" type="text/javascript" charset="utf-8" async defer></script>
 	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>
 </html>
