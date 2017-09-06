@@ -1,0 +1,11 @@
+{
+  "name": "EncrypCode",
+  "version": "0.1.0",
+  "author": "Jose Diaz",
+  "devDependencies": {
+    "grunt": "*"
+  },
+  "dependencies": {
+    "clipboard": "^1.7.1"
+  }
+}

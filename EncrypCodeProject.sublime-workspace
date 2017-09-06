@@ -4,16 +4,48 @@
 		"selected_items":
 		[
 			[
+				"o",
+				"overflow"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"align",
+				"align-items"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"te",
+				"text-shadow"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"flex",
+				"flex-flow"
+			],
+			[
 				"margi",
 				"margin-top"
 			],
 			[
 				"border-c",
 				"border-color"
-			],
-			[
-				"te",
-				"text-align"
 			],
 			[
 				"bord",
@@ -66,10 +98,6 @@
 			[
 				"re",
 				"red-bg"
-			],
-			[
-				"tex",
-				"text-center"
 			],
 			[
 				"div",
@@ -126,10 +154,6 @@
 			[
 				"transitio",
 				"transition-duration"
-			],
-			[
-				"margin",
-				"margin-right"
 			],
 			[
 				"transiti",
@@ -206,10 +230,6 @@
 			[
 				"boun",
 				"bounceInRight"
-			],
-			[
-				"font",
-				"font-weight"
 			],
 			[
 				"container",
@@ -300,10 +320,6 @@
 				"inline-block"
 			],
 			[
-				"flex",
-				"flex-wrap"
-			],
-			[
 				"im",
 				"important"
 			],
@@ -372,13 +388,11 @@
 	"buffers":
 	[
 		{
-			"contents": "<!DOCTYPE html>\n<html>\n<head>\n\t<meta charset=\"utf-8\">\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n\t<title>EncrypCode</title>\n\t<link rel=\"stylesheet\" href=\"style.css\">\n</head>\n<body>\n\t<section>\n\t\t<div>\n\t\t\t<h1>EncryptCode</h1>\n\t\t\t<p>Introduce the text you wanna encrypt:</p>\n\t\t\t<textarea name=\"\" id=\"\" cols=\"30\" rows=\"10\"></textarea>\n\t\t\t<p>Now type a number.</p>\n\t\t\t<input type=\"text\"><br>\n\t\t\t<button>Go</button>\n\t\t</div>\n\t</section>\n\n\t<script>document.write('<script src=\"http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1\"></' + 'script>')</script>\n</body>\n</html>",
 			"file": "index.html",
-			"file_size": 640,
-			"file_write_time": 131166647171672755,
 			"settings":
 			{
-				"buffer_size": 614,
+				"buffer_size": 805,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
@@ -386,7 +400,8 @@
 			"file": "style.css",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 936,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
@@ -394,7 +409,8 @@
 			"file": "script.js",
 			"settings":
 			{
-				"buffer_size": 595,
+				"buffer_size": 694,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -596,15 +612,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 614,
+						"buffer_size": 805,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								443,
-								443
+								797,
+								797
 							]
 						],
 						"settings":
@@ -615,12 +631,27 @@
 							{
 								"close":
 								{
+									"1":
+									[
+										792,
+										796
+									]
 								},
 								"icon":
 								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"brackethighlighter.default"
+									]
 								},
 								"open":
 								{
+									"1":
+									[
+										187,
+										191
+									]
 								},
 								"unmatched":
 								{
@@ -628,41 +659,21 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
@@ -673,11 +684,31 @@
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -691,7 +722,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -706,15 +737,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 936,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								464,
+								464
 							]
 						],
 						"settings":
@@ -724,12 +755,27 @@
 							{
 								"close":
 								{
+									"1":
+									[
+										614,
+										615
+									]
 								},
 								"icon":
 								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
 								},
 								"open":
 								{
+									"1":
+									[
+										333,
+										334
+									]
 								},
 								"unmatched":
 								{
@@ -796,10 +842,10 @@
 							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 345.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -814,30 +860,46 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 595,
+						"buffer_size": 694,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								464,
+								464
 							]
 						],
 						"settings":
 						{
+							"auto_complete": false,
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.locations":
 							{
 								"close":
 								{
+									"1":
+									[
+										479,
+										480
+									]
 								},
 								"icon":
 								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
 								},
 								"open":
 								{
+									"1":
+									[
+										20,
+										21
+									]
 								},
 								"unmatched":
 								{
@@ -948,8 +1010,8 @@
 		"cols":
 		[
 			0.0,
-			0.33,
-			0.66,
+			0.3483639399,
+			0.72816360601,
 			1.0
 		],
 		"rows":

@@ -4,16 +4,22 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>EncrypCode</title>
+	<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">	
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	<section>
 		<div>
 			<h1>Encryption Generator</h1>
-			<p>Introduce the text you want to encrypt:</p>
+			<p>ROT13 is a version of the Caesar ciphert used in the ancient Rome.</p>
+			<p>It works substituting each letter for the one located 13 letters after in the alphabet.</p>
+			<p>This app was created to put my JavaScript knowledge on practice and shouldn't be viewed as a secure way to encrypt text, since it's prety easy to crack.</p>
+
+			<p>Introduce now the text you want to encrypt:</p>
 			<textarea name="" id="textToEncrypt" cols="60" rows="5"></textarea>
 			<div>
-				<button type="button" id="encrypBtn" onclick="encryptFn()">Press to encrypt/decrypt</button>
+				<button type="button" id="encryptBtn">Encrypt | decrypt</button>
+				<button type="button" id="copyBtn" disabled>Copy to clipboard</button>
 			</div>
 			<div id="encryptedText">
 				
@@ -21,8 +27,7 @@
 		</div>
 	</section>
 	
-
+	<script src="dist/clipboard.min.js"></script>
 	<script src="script.js" type="text/javascript" charset="utf-8" async defer></script>
-	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>
 </html>

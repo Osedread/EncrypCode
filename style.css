@@ -1,4 +1,5 @@
 body {
+	font-family: 'VT323', monospace;
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: center;
@@ -35,15 +36,17 @@ section {
 textarea {
 	text-align: center;
 	background-color: rgb(49, 198, 219);
-	border-radius: 25px;
+	border-radius: 5px;
 	font-size: 1em;
 	padding: 1em;
 	margin:0.5em;
 	overflow: hidden;
+	font-family: 'VT323', monospace;
 }
 
 button {
-	border-radius: 25px;
+	border-radius: 5px;
+	font-weight: bold;
 	padding: 0.8em;
 	margin: 2em;
 }
@@ -51,9 +54,6 @@ button {
 /* MEDIA QUERIES */
 
 @media (max-width: 600px) {
-	body {
-		
-	}
 	section {
 		width: 100%;
 	}
